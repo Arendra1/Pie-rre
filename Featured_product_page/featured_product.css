@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Featured Product Section Start */
+
+.featuredProduct {
+  /* border: 5px solid black; */
+  height: 100%;
+  width: 100%;
+
+  /* margin-bottom: 10vh; */
+}
+
+/* #featuredProduct{
+      margin-bottom: 40vh;
+  } */
+
+.heading {
+  margin-top: 4vh;
+  font-size: 25px;
+  font-family: poppins;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading h1 {
+  color: #ffffff;
+  background-color: #202020;
+  padding: 20px;
+  margin-bottom: 10px;
+  font-size: 2.4rem;
+  border-radius: 10px;
+}
+
+.heading button {
+  /* width: 10vw;
+      height: 8vh;
+      border-radius: 10px;
+      font-weight: bold;
+      font-size: 15px;
+      border: 2px solid black;
+      position: relative;
+      left: 83.5vw;
+      top:-8vh; */
+  /* font-family: "Bree Serif", serif; */
+  display: none;
+}
+/* .heading button:hover{
+      border: 2px solid whitesmoke;
+      color: white;
+      background-color: black;
+      font-weight: bolder;
+  } */
+
+.boxes {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: -3.6vw;
+}
+
+.box {
+  padding: 20px;
+  font-family: "Bree Serif", serif;
+  width: 200px;
+  margin: 20px;
+}
+
+.box img {
+  transition: width 1s ease-in-out 0s, height 1s ease-in-out 0s;
+  width: 250px;
+  height: 250px;
+}
+.box img:hover {
+  height: 290px;
+  width: 290px;
+}
+
+/* Featured Product Section End */
+
+/* Responsive styles */
+
+@media (max-width: 945px) {
+  .boxes {
+    margin-left: -5.4vw;
+    /* background-color: black; */
+  }
+}
+
+@media (max-width: 700px) {
+  .boxes {
+    margin-left: -6.6vw;
+    /* background-color: black; */
+  }
+}
+
+@media (max-width: 600px) {
+  .boxes {
+    margin-left: 4vw;
+    /* background-color: black; */
+  }
+
+  .box {
+    width: 180px;
+  }
+
+  .box img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .box img:hover {
+    height: 200px;
+    width: 200px;
+  }
+
+  .box {
+    margin: -2px;
+  }
+}
+
+@media (max-width: 500px) {
+  .boxes {
+    margin-left: -2vw;
+  }
+
+  .box img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .box img:hover {
+    height: 320px;
+    width: 320px;
+  }
+
+  .box {
+    width: 300px;
+    margin: 10px;
+  }
+}
+
+@media (max-width:350px) {
+  .boxes {
+    margin-left: -2vw;
+  }
+
+  .box img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .heading h1 {
+    font-size: 1.8rem;
+  }
+
+  .heading h6{
+    font-size: .8rem;
+  }
+
+  .box img:hover {
+    height: 270px;
+    width: 270px;
+  }
+
+  .box {
+    width: 250px;
+    margin: 15px;
+    font-size: 1rem;
+  }
+}

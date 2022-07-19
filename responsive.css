@@ -1,0 +1,499 @@
+
+
+@media screen and (max-width: 1026px) {
+  body {
+    /* background-color: black; */
+    overflow-x: hidden;
+  }
+
+  /* Home page start */
+
+  .navbar {
+    width: 100vw;
+  }
+
+  header {
+    height: 73vh;
+    width: 100vw;
+  }
+
+  header::before {
+    height: 73vh;
+    width: 100vw;
+  }
+
+  .logo img {
+    width: 10vw;
+    height: 7vh;
+  }
+
+  .logo h1 {
+    font-size: 1.7rem;
+  }
+
+  .navbar ul li a {
+    font-size: 1.4rem;
+    margin: 2vw;
+  }
+
+  .home {
+    top: 60vh;
+    font-size: 1rem;
+  }
+
+  .home h1 {
+    margin-left: 4.8vw;
+    font-size: 1.4rem;
+  }
+
+  .home button {
+    width: 14vw;
+    height: 4vh;
+  }
+
+  /* Home page end */
+
+  /*Featured Product Page Start */
+
+  .heading {
+    font-size: 1.4rem;
+    margin-left: 3vw;
+  }
+
+  .heading button {
+    width: 14vw;
+    height: 4vh;
+    top: -4vh;
+    left: 79vw;
+  }
+
+  .boxes {
+    margin-left: 0vw;
+    margin-top: -5vh;
+  }
+
+  .box {
+    margin-right: 1vw;
+    /* margin-left: 1vw; */
+  }
+
+  /*Featured Product Page End */
+
+  /* Our Client Section Start */
+
+  #client-section {
+    margin-top: 4vh;
+    height: 33vh;
+  }
+
+  #client-section h1 {
+    margin-left: 3vw;
+    font-size: 2.4rem;
+    margin-top: 3vh;
+  }
+
+  .client-item {
+    margin-top: -7vh;
+  }
+
+  #clients img {
+    height: 10.4vh;
+    width: 17vw;
+    padding: 0px 10px;
+  }
+
+  /* Our Client Section End */
+
+  /* Contact Section Start */
+
+  #contact h1 {
+    font-size: 2.4rem;
+    margin-left: 3vw;
+  }
+
+  #btne {
+    width: 12vw;
+    height: 4vh;
+  }
+
+  /* Contact Section End */
+
+  /* footer page start */
+
+  footer {
+    height: fit-content;
+    padding-top: 2vh;
+  }
+
+  .footer_para {
+    /* font-size: 18px; */
+    line-height: normal;
+    width: 45vw;
+  }
+
+  .footer button {
+    width: 15vw;
+    height: 4vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    /* font-size: 10px; */
+  }
+
+  /* footer page end */
+
+}
+
+
+
+
+
+
+
+  @media screen and (max-width: 815px) {
+    .home {
+      top: 52vh;
+    }
+    /* Featured Product section Start */
+
+    .boxes {
+      margin-left: 0vw;
+    }
+
+    .box {
+      margin-right: 2.9vw;
+      margin-left: 2.9vw;
+    }
+
+    .heading h1,
+    .heading h6 {
+      margin-left: 2.1vw;
+    }
+
+    .heading button {
+      left: 77vw;
+    }
+
+    /* Featured Product section End */
+
+    /* Clients section start */
+
+
+    /* Clients section end */
+
+
+    /* Footer section start */
+    .footer_para {
+      font-size: 14px;
+    }
+
+    .footer button {
+      width: 20vw;
+      font-size: 12px;
+    }
+
+
+    /* Footer section end */
+
+
+  }
+
+
+
+
+@media screen and (max-width: 570px) {
+  /* Home page start */
+
+  .navbar {
+    width: 100vw;
+  }
+
+  header {
+    height: 60vh;
+  }
+
+  header::before {
+    height: 60vh;
+  }
+
+  .logo img {
+    width: 8vw;
+    height: 5vh;
+  }
+
+  .logo h1 {
+    font-size: 1rem;
+  }
+
+  .navbar ul li a {
+    font-size: 0.8rem;
+    margin: 1.5vw;
+  }
+
+  .iconns {
+    margin-left: 0vw;
+  }
+
+  .nav_icons {
+    height: 3vh;
+    width: 3vw;
+  }
+
+  .home {
+    top: 39vh;
+    font-size: 1rem;
+  }
+
+  .home h1 {
+    font-size: 1rem;
+  }
+
+  .home button {
+    width: 18vw;
+    font-size: 0.8rem;
+    border-radius: 6px;
+  }
+
+  /* Home page end */
+
+  /* Featured Product page start */
+
+  .heading {
+    font-size: 0.85rem;
+    margin-left: 7vw;
+  }
+  .heading button {
+    width: 18vw;
+    height: 4vh;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    top: -4vh;
+    left: 64vw;
+  }
+
+  .boxes {
+    margin-left: 4vw;
+  }
+
+  /* Featured Product page end */
+
+  /* Our Clients page start */
+
+  #client-section h1 {
+    margin-left: 8vw;
+    font-size: 1.6rem;
+  }
+  #clients img {
+    height: 8vh;
+    width: 14vw;
+    padding: 0px 10px;
+  }
+
+  /* Our Clients page end */
+
+  /* Contact us page start */
+
+  #contact h1 {
+    font-size: 1.6rem;
+    margin-left: 8vw;
+  }
+
+  .form-group {
+    font-size: 10px;
+  }
+
+  label,
+  input {
+    font-size: 10px;
+  }
+
+  .lable {
+    font-size: 10px;
+  }
+
+  #btne {
+    width: 18vw;
+    height: 4vh;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    margin-left: 13vw;
+  }
+
+  /* Contact us page end */
+
+  /* footer page start */
+
+  .footer_para {
+    font-size: 13px;
+    line-height: normal;
+    width: 45vw;
+  }
+
+  .footer button {
+    width: 25vw;
+    font-size: 13px;
+  }
+
+  /* footer page end */
+}
+
+
+
+
+
+
+@media screen and (max-width: 425px) {
+  /* Home Page start */
+
+  header {
+    height: 105vh;
+  }
+
+  header::before {
+    height: 105vh;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo img {
+    width: 20vw;
+    height: 10vh;
+  }
+
+  .logo h1 {
+    font-size: 2rem;
+  }
+
+  .navbar ul li a {
+    font-size: 0.6rem;
+    display: none;
+  }
+
+  .iconns {
+    display: none;
+  }
+  .iconns .nav_icons {
+    width: 10vw;
+  }
+  .home {
+    top: 62vh;
+    font-size: 0.6rem;
+  }
+
+  .home h1 {
+    font-size: 0.6rem;
+  }
+
+  .home button {
+    width: 18vw;
+    height: 5vh;
+    font-size: 0.6rem;
+    border-radius: 6px;
+  }
+
+  .home .bottom_navigation_bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 80vh;
+    left: 1vw;
+    width: 98vw;
+    height: 8vh;
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.5);
+  }
+
+  /* .home   .bottom_navigation_bar .iconnse .nav_icons:hover{
+    box-shadow: 2px 2px 5px white;
+  } */
+
+  /* Home Page End */
+
+  /* Featured Product Page Start */
+
+  .heading {
+    font-size: 0.65rem;
+    margin-left: 12.3vw;
+  }
+  .heading button {
+    width: 18vw;
+    height: 5vh;
+    font-size: 0.6rem;
+    left:50vw;
+  }
+
+  .boxes {
+    margin-left: 10vw;
+  }
+
+  .box {
+    width: 300px;
+    /* height: 280px; */
+    font-size: 0.8rem;
+  }
+
+  .box img {
+    width: 280px;
+    height: 280px;
+  }
+
+  /* Featured Product Page end */
+
+  /* Our clients section start */
+
+  #client-section h1 {
+    margin-left: 12.3vw;
+    font-size: 1.2rem;
+  }
+
+  #clients img {
+    height: 7vh;
+    width: 11vw;
+  }
+
+  /* Our clients section end */
+
+  /* conntact section start */
+
+  #contact {
+    margin-top: -18vh;
+  }
+
+  #contact h1 {
+    margin-left: 12.3vw;
+    font-size: 1.2rem;
+    margin-bottom: 2vh;
+  }
+
+  form .form-group label {
+    font-size: 0.7rem;
+  }
+
+  #namee {
+    height: 10px;
+    font-size: 0.6rem;
+  }
+
+  /* conntact section end */
+
+  /* footer page start */
+
+  footer {
+    height: 43vh;
+  }
+  .footer_para {
+    font-size: 12px;
+    line-height: normal;
+    width: 45vw;
+  }
+
+  .footer button {
+    width: 30vw;
+    font-size: 10px;
+  }
+
+  /* footer page end */
+}
